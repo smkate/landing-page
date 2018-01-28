@@ -5,15 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link async rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link async rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-    <link async rel="stylesheet" href="style.css">
-    <link async href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
 </head>
 <body>
     <header class="bg-gradient">
@@ -57,6 +53,7 @@
     <div class="container-fluid partners">
             <img class="img-fluid" src="images/client-logos.png" alt="">
     </div>
+    <!-- highlights -->
     <div class="container-fluid highlights">
         <div class="container">
             <small>Highlights</small>
@@ -66,7 +63,7 @@
                     <div class="card b-l features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <div class="icon-box"><img src="images/icons/phone.png" alt="phone"></div>
                                 <div class="media-body">
                                     <h4 class="card-title">Simple</h4>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
@@ -79,7 +76,7 @@
                     <div class="card b-l features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <div class="icon-box"><img src="images/icons/phone.png" alt="phone"></div>
                                 <div class="media-body">
                                     <h4 class="card-title">Customize</h4>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
@@ -92,7 +89,7 @@
                     <div class="card b-l features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <div class="icon-box"><img src="images/icons/phone.png" alt="phone"></div>
                                 <div class="media-body">
                                     <h4 class="card-title">Secure</h4>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
@@ -102,15 +99,12 @@
                     </div>
                 </div>
             </div>
-            
-
-            
-            </div>
         </div>
     </div>
+</div>
     <div class="container discover">
         <div class="card-discover float-right col-6">
-            <div class="icon-box"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+            <div class="icon-box"><img src="images/icons/phone.png" alt="phone"></div>
             <div class="card-block">
                 <h3>Discover our App</h3>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione</p>
@@ -119,6 +113,7 @@
         </div>
             <img class="img-fluid" src="images/perspective.png" alt="magic phone">
     </div>
+    <!-- features -->
     <div class="container-fluid highlights">
             <div class="container justify-content-center">
                 <div class="row">
@@ -132,13 +127,13 @@
                                 <a class="nav-link active" href="#">Communication</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Scheduling</a>
+                                <a class="nav-link" href="#">Scheduling</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Messages</a>
+                                <a class="nav-link" href="#">Messages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Live Chat</a>
+                                <a class="nav-link" href="#">Live Chat</a>
                             </li>
                         </ul>
                         <div id="communication" class="white fade active show">
@@ -146,18 +141,19 @@
                             <div class="col-4">
                                 <img class="img-fluid" src="images/graphic.png" alt="graphic phone">
                             </div>
-                            <div class="col-8">
-                                    <h3>Communicate with ease</h3>
-                                    <p class="pink">Uniquely underwhelm premium outsourcing with proactive leadership skills.</p>
-                                    <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                                    <br>
-                                    malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                                    </p>
+                            <div class="col-8 text-left">
+                                <h3>Communicate with ease</h3>
+                                <p class="pink">Uniquely underwhelm premium outsourcing with proactive leadership skills.</p>
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
+                                </p>
+                                <p>
+                                malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
+                                </p>
                             </div>
                             </div>
                         </div>
-                        <div id="scheduling" class="white fade active show">
+                        <!-- <div id="scheduling" class="white fade active show">
                             <div class="row text-grafic">
                                 <div class="col-8">
                                     <h3>Communicate with ease</h3>
@@ -203,92 +199,114 @@
                                     <div class="col-4">
                                         <img class="img-fluid" src="images/graphic.png" alt="graphic phone">
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         </div>
                     </div>
         </div></div>
         <div class="container app">
-                <div class="card-discover float-right col-5">
-                    <div class="icon-box"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                    <div class="card-block">
-                        <h3>Launch your App</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione</p>
-                        <a href="#" class="btn btn-primary">Read more</a>
-                    </div>
-                </div>
+            <div class="row">
                 <div class="img-card">
                     <img class="img-fluid" src="images/dualphone.png" alt="dual phone">
                 </div>
+                <div class="card-discover col-5">
+                    <div class="icon-box"><img src="images/icons/racket.png" alt="phone"></div>
+                        <div class="card-block">
+                            <h3>Launch your App</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <!-- advantages -->
         <div class="container-fluid highlights">
-            <div class="container row">
-                <div class="col-8">
-                    <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">List group item heading</h5>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 advantages">
+                        <div class="row list">
+                            <div class="col-3">
+                                <div class="circle-icon">1</div>
+                            </div>
+                            <div class="col-9 float-right">
+                                <h5 class="mb-1">Create an Account</h5>
+                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem</p>
+                            </div>
+                        </div>
+                        <div class="row list">
+                            <div class="col-3">
+                                <div class="circle-icon">2</div>
+                            </div>
+                            <div class="col-9 float-right">
+                                <h5 class="mb-1">Share with friends</h5>
+                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem eveniet</p>
+                            </div>
+                        </div>
+                            <div class="row list not-bottom">
+                                <div class="col-3">
+                                    <div class="circle-icon">3</div>
                                 </div>
-                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">List group item heading</h5>
+                                <div class="col-9 float-right">
+                                    <h5 class="mb-1">Enjoy your life</h5>
+                                    <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem</p>
                                 </div>
-                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">List group item heading</h5>
-                                </div>
-                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                            </a>
+                            </div>
+                        </div>
+                    <div class="col-4">
+                        <img class="phone img-fluid" src="images/iphonex.png" alt="iphone">
                     </div>
-                </div>
-                <div class="col-4">
-                    <img class="phone img-fluid" src="images/iphonex.png" alt="iphone">
                 </div>
             </div>
         </div>
+        <!-- customers -->
         <div class="container customers">
-                <div class="col-12 title">
-                    <p class="lead">TESTIMONIALS</p>
-                    <h2 class="display-3">What our Customers Says</h2>
+                    <small>Testimonials</small>
+                    <h3>What our Customers Says</h3>
+            <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <img src="images/client.png" alt="client" class="client-img">
+                                <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</p>
+                                <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                                <p class="text-primary">United States</p>
+                            </div>
+                            <!-- <div class="owl-item">
+                                <img src="images/client.png" alt="client" class="client-img">
+                                <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</p>
+                                <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                                <p class="text-primary">United States</p>
+                            </div>
+                            <div class="owl-item">
+                                <img src="images/client.png" alt="client" class="client-img">
+                                <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</p>
+                                <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                                <p class="text-primary">United States</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev">prev</div>
+                            <div class="owl-next">next</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="owl-carousel owl-theme testimonials">
-                    <div class="item ">
-                        <img class="img-fluid" src="images/client.png" alt="client" class="client-img">
-                        <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                        <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                        <p class="text-primary">United States</p>
-                    </div>
-                    <div class="item ">
-                        <img class="img-fluid" src="images/client.png" alt="client" class="client-img">
-                        <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                        <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                        <p class="text-primary">United States</p>
-                    </div>
-                    <div class="item ">
-                        <img class="img-fluid" src="images/client.png" alt="client" class="client-img">
-                        <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                        <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                        <p class="text-primary">United States</p>
-                    </div>
-            </div>
         </div>
-        <!-- end customers -->
+        <!-- app screenshots -->
         <div class="container-fluid highlights">
                 <small>Gallery</small>
                 <h3>App Screenshots</h3>
             <div class="img-gallery owl-carousel owl-theme">
-                    <img class="img-fluid" src="images/screen1.jpg" alt="image">
-                    <img class="img-fluid" src="images/screen2.jpg" alt="image">
-                    <img class="img-fluid" src="images/screen3.jpg" alt="image">
-                    <img class="img-fluid" src="images/screen1.jpg" alt="image">
+                    <img src="images/screen1.jpg" alt="image">
+                    <img src="images/screen2.jpg" alt="image">
+                    <img src="images/screen3.jpg" alt="image">
+                    <img src="images/screen1.jpg" alt="image">
             </div>
         </div>
-        <!-- end app screenshots -->
+        <!-- pricing -->
         <div class="container pricing">
             <small>Pricing</small>
             <h3>Upgrade to Pro</h3>
@@ -298,13 +316,13 @@
                             <small class="text-primary">PERSONAL</small>
                             <span class="price">$14<sub>/m</sub></span>
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <div class="list-group">
                             <div class="list-group-item">10 Projects</div>
                             <div class="list-group-item">5 GB Storage</div>
                             <div class="list-group-item">Basic Support</div>
                             <div class="list-group-item"><del>Collaboration</del></div>
                             <div class="list-group-item"><del>Reports and analytics</del></div>
-                        </ul>
+                        </div>
                         <div class="card-body">
                             <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
                         </div>
@@ -314,13 +332,13 @@
                             <small class="text-primary">FOR TEAMS</small>
                             <span class="price">$29<sub>/m</sub></span>
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <div class="list-group">
                             <div class="list-group-item">Unlimited Projects</div>
                             <div class="list-group-item">100 GB Storage</div>
                             <div class="list-group-item">Priority Support</div>
                             <div class="list-group-item">Collaboration</div>
                             <div class="list-group-item">Reports and analytics</div>
-                        </ul>
+                        </div>
                         <div class="card-body">
                             <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
                         </div>
@@ -330,13 +348,13 @@
                             <small class="text-primary">ENTERPRISE</small>
                             <span class="price">$249<sub>/m</sub></span>
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <div class="list-group">
                             <div class="list-group-item">Unlimited Projects</div>
                             <div class="list-group-item">Unlimited Storage</div>
                             <div class="list-group-item">Collaboration</div>
                             <div class="list-group-item">Reports and analytics</div>
                             <div class="list-group-item">Web hooks</div>
-                        </ul>
+                        </div>
                         <div class="card-body">
                             <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
                         </div>
@@ -369,10 +387,10 @@
                 </div>
             </div>
         </div>
-        <!-- end faq -->
+        <!-- download -->
         <div class="container-fluid bg-gradient">
             <div class="container download">
-                <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                <div class="icon-box"><img src="images/icons/phone.png" alt="phone"></div>
                     <h2 class="downl">Download Anywhere</h2>
                     <p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide methods of empowerment. </p>
                     <div class="my-4">
@@ -420,10 +438,16 @@
                     </nav>
                 </small>
         </div>
-        <script>
-            $(document).ready(function(){
-            $(".owl-carousel").owlCarousel();
-            });
-        </script>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+        });
+        items: 1;
+    </script>
 </body>
 </html>
